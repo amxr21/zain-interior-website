@@ -1,0 +1,22 @@
+@import url('./fonts.css');
+
+:root {
+  font-family: 'IvyPresto Headline';
+  line-height: 1.5;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+
+body{
+  background-color: #FFFAF3;
+}
+
+.hero{
+  background-image: url('./assets/images/Hero.jpg');
+  background-size: cover;
+}
+
+#Quote{
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
