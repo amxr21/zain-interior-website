@@ -8,3 +8,6 @@ export { default as HeroCard } from "./HeroCard";
 export { default as AboutIntro } from "./AboutIntro";
 export { default as AboutStudio } from "./AboutStudio";
 export { default as Image } from "./Image";
+export { default as ServicesIntro } from "./ServicesIntro";
+export { default as ServicesList } from "./ServicesList";
+export { default as Service } from "./Service";

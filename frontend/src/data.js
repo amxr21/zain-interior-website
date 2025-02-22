@@ -1,3 +1,5 @@
+import { InteriorDesignBg, FurnishingBg, FinishingBg, RenovationBg } from "./constants/images"
+
 const translations = {
     en: {
       navbar: {
@@ -29,19 +31,23 @@ const translations = {
         list: {
           interiorDesign: {
             title: "Interior Design",
-            brief: "Creating functional and aesthetically pleasing spaces through layout planning, color schemes, and decor selection."
+            brief: "Creating functional and aesthetically pleasing spaces through layout planning, color schemes, and decor selection.",
+            banner: InteriorDesignBg
           },
           furnishing: {
             title: "Furnishing",
-            brief: "Providing stylish and comfortable furniture solutions that enhance the functionality and appeal of any space."
+            brief: "Providing stylish and comfortable furniture solutions that enhance the functionality and appeal of any space.",
+            banner: FurnishingBg
           },
           finishing: {
             title: "Finishing",
-            brief: "Applying the final touches, including paint, flooring, and decorative details, to complete the interior look."
+            brief: "Applying the final touches, including paint, flooring, and decorative details, to complete the interior look.",
+            banner: FinishingBg
           },
           renovation: {
             title: "Renovation",
-            brief: "Revamping existing spaces by upgrading structures, materials, and designs to meet modern standards and aesthetics."
+            brief: "Revamping existing spaces by upgrading structures, materials, and designs to meet modern standards and aesthetics.",
+            banner: RenovationBg
           }
         }
       },
