@@ -123,3 +123,82 @@
     font-weight: 100;
     font-style: italic;
   }  
+
+
+
+  @font-face {
+    font-family: 'Ivy-Presto-Display';
+    src: url('./assets/fonts/IVY-PRESTO-DISPLAY-SEMI-BOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Display';
+    src: url('./assets/fonts/IVY-PRESTO-DISPLAY-THIN.OTF') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Display';
+    src: url('./assets/fonts/IVY-PRESTO-DISPLAY.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Headline';
+    src: url('./assets/fonts/IVY-PRESTO-HEADLINE-LIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Headline';
+    src: url('./assets/fonts/IVY-PRESTO-HEADLINE-SEMI-BOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Headline';
+    src: url('./assets/fonts/IVY-PRESTO-HEADLINE-THIN.OTF') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Headline';
+    src: url('./assets/fonts/IVY-PRESTO-HEADLINE.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Text';
+    src: url('./assets/fonts/IVY-PRESTO-TEXT-LIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Text';
+    src: url('./assets/fonts/IVY-PRESTO-TEXT-SEMI-BOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Text';
+    src: url('./assets/fonts/IVY-PRESTO-TEXT-THIN.OTF') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Ivy-Presto-Text';
+    src: url('./assets/fonts/IVY-PRESTO-TEXT.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }

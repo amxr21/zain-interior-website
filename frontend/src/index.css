@@ -28,3 +28,11 @@ body{
   background-color: #d2cbc3a2 ;
   top: 0;left: 0;
 } 
+
+.service-info{
+  transition: all ease-in-out 0.25s;
+}
+
+.banner-content{
+  background-color: rgba(0, 0, 0, 0.4);
+}

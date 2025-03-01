@@ -7,7 +7,11 @@ const Home = () => {
             <Hero />
             <About />
             <Services />
-            <Banner />
+            <Banner
+                containerClasses={""} 
+                header='Book your consultation session now'
+                subheader='Book you consultation session now'
+            />
             <Projects />
             <Numbers />
         </div>
