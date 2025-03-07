@@ -11,3 +11,6 @@ export { default as Image } from "./Image";
 export { default as ServicesIntro } from "./ServicesIntro";
 export { default as ServicesList } from "./ServicesList";
 export { default as Service } from "./Service";
+export { default as ProjectsCategories } from "./ProjectsCategories";
+export { default as ProjectStudio } from "./ProjectStudio";
+export { default as CategoryHeader } from "./CategoryHeader";

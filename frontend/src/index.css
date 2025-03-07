@@ -36,3 +36,8 @@ body{
 .banner-content{
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+
+.projects-studio::-webkit-scrollbar{
+  height: 10px !important; 
+}
