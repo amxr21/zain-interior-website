@@ -4,7 +4,7 @@ const CategoriesContext = createContext()
 
 
 const CategoriesContextWrapper = ({children}) => {
-    const [category, setCategory] = useState('living room')
+    const [category, setCategory] = useState('Living Room')
 
     return (
         <CategoriesContext.Provider value={{category, setCategory}}>

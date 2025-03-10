@@ -14,3 +14,5 @@ export { default as Service } from "./Service";
 export { default as ProjectsCategories } from "./ProjectsCategories";
 export { default as ProjectStudio } from "./ProjectStudio";
 export { default as CategoryHeader } from "./CategoryHeader";
+export { default as NumbersHeader } from "./NumbersHeader";
+export { default as Number } from "./Number"

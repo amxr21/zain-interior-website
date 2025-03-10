@@ -41,6 +41,7 @@ import CoffeeCorner9 from "../assets/images/projects/coffeeCorner/9.jpg"
 import CoffeeCorner10 from "../assets/images/projects/coffeeCorner/10.jpg"
 
 
+import ZainTypo from "../assets/images/typo.png"
 
 
 
@@ -87,7 +88,7 @@ export {
     CoffeeCorner10,
 
 
-
+    ZainTypo,
 
 
 }
