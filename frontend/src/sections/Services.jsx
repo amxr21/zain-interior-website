@@ -7,7 +7,7 @@ const Services = () => {
     
 
     return (
-        <Section Id={'Services'} Classes={'flex-col gap-x-8'}>
+        <Section Id={'Services'} Classes={'flex flex-col gap-8'}>
             <ServicesIntro />
             <ServicesList />
         </Section>

@@ -41,6 +41,8 @@ const translations = {
         Story: "Our Story",
         Services: "Services",
         Numbers: "In Numbers",
+        Projects: "Projects",
+        Clients: "Our Clients",
         Contact: "Get in Touch"
       },
       hero: {

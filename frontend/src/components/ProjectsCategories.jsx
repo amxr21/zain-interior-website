@@ -14,8 +14,8 @@ const ProjectsCategories = () => {
     
 
     return (
-        <div className="col-span-4 flex flex-col h-86 ">
-            <h2 className="underline text-3xl font-semibold mb-4">{translations[lang].realLife.title}    !</h2>
+        <div className="col-span-4 flex flex-col gap-y-6 h-86 ">
+            <h2 className="underline text-4xl font-semibold mb-4">{translations[lang].realLife.title}    !</h2>
 
             <div className="categories-list flex flex-col gap-y-2">
                 {

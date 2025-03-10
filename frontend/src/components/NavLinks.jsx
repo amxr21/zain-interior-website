@@ -21,7 +21,7 @@ const NavLinks = ({text, link}) => {
             {
                 Object.entries(translations[lang].navbar).map((link, i) => {
                     return (
-                            i + 1  == 2
+                            i + 1  == 3
                             ?
                             <>
                                 <NavLink key={i} link={link[0]} text={link[1]} />

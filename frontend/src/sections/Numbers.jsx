@@ -9,7 +9,7 @@ const Numbers = () => {
 
 
     return (
-        <Section Classes='flex flex-col gap-y-6'>
+        <Section Id="Numbers" Classes='flex flex-col gap-y-6'>
             <NumbersHeader />
 
             <div className="numbers flex gap-4 py-4 justify-between">

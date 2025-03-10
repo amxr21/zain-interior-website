@@ -1,9 +1,9 @@
-import { Hero, About, Banner, Projects, Numbers, Services, Quote } from '../sections/index'
+import { Hero, About, Banner, Projects, Numbers, Services, Quote, Footer } from '../sections/index'
 
 const Home = () => {
 
     return (
-        <div className='hero h-[100vh]'>
+        <div className=' '>
             <Hero />
             <About />
             <Services />
