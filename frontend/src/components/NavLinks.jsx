@@ -2,7 +2,7 @@ import Logo from "./Logo";
 
 import NavLink from "./NavLink";
 
-import translations from '../data'
+import { translations } from '../data'
 
 
 const NavLinks = ({text, link}) => {

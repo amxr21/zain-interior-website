@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import translations from "../data";
+import { translations } from "../data";
 
 const Lang = translations.en.services
 

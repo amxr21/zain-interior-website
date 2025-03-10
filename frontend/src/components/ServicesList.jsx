@@ -1,13 +1,13 @@
 import { Service } from './index'
 
-import data from "../data"
+import { translations } from "../data"
 
 const ServicesList = () => {
     return (
         <div id="ServicesList">
             {
 
-                Object.entries(data.en.services.list).map((service, i) => {
+                Object.entries(translations.en.services.list).map((service, i) => {
                     return (
                         <Service
                             key={i}

@@ -13,7 +13,7 @@ const CategoryHeader = ({selected, Classes, header}) => {
     const handleClick = (e) => {setCategory(categoryRef.current.textContent)}
  
     return (
-        <div ref={categoryRef} onClick={handleClick} className={`project-category ${category == header ? "bg-[#EBD9B3]" :"bg-transparent"} cursor-pointer p-2 ${Classes}`}>
+        <div ref={categoryRef} onClick={handleClick} className={`project-category ${category == header ? "bg-[#EBD9B3] text-white" :"bg-transparent"} cursor-pointer p-2 ${Classes}`}>
             {header}
         </div>
     )

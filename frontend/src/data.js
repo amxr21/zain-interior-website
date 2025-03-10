@@ -1,4 +1,39 @@
-import { InteriorDesignBg, FurnishingBg, FinishingBg, RenovationBg } from "./constants/images"
+import { 
+  InteriorDesignBg, FurnishingBg, FinishingBg, RenovationBg,
+  DinninRoom1,
+  DinninRoom2,
+  DinninRoom3,
+  DinninRoom4,
+  DinninRoom5,
+  DinninRoom6,
+  DinninRoom7,
+  DinninRoom8,
+  DinninRoom9,
+  DinninRoom10,
+
+  LivingRoom1,
+  LivingRoom2,
+  LivingRoom3,
+  LivingRoom4,
+  LivingRoom5,
+  LivingRoom6,
+  LivingRoom7,
+  LivingRoom8,
+  LivingRoom9,
+  LivingRoom10,
+
+  CoffeeCorner1,
+  CoffeeCorner2,
+  CoffeeCorner3,
+  CoffeeCorner4,
+  CoffeeCorner5,
+  CoffeeCorner6,
+  CoffeeCorner7,
+  CoffeeCorner8,
+  CoffeeCorner9,
+  CoffeeCorner10,
+
+ } from "./constants/images"
 
 const translations = {
     en: {
@@ -140,6 +175,64 @@ const translations = {
       }
     }
   };
+
+
+
+const images = 
+        {
+            "Living Room" : [
+                DinninRoom1,
+                DinninRoom2,
+                DinninRoom3,
+                DinninRoom4,
+                DinninRoom5,
+                DinninRoom6,
+                DinninRoom7,
+                DinninRoom8,
+                DinninRoom9,
+                DinninRoom10,
+            ],
+            "Dining Room" : [
+                LivingRoom1,
+                LivingRoom2,
+                LivingRoom3,
+                LivingRoom4,
+                LivingRoom5,
+                LivingRoom6,
+                LivingRoom7,
+                LivingRoom8,
+                LivingRoom9,
+                LivingRoom10,
+            ],
+            "Office" : [
+                "c",
+                "",
+                "",
+                "",
+            ],
+            "Kitchen" : [
+                "d",
+                "",
+                "",
+                "",
+            ],
+            "Coffee corners" : [
+                CoffeeCorner1,
+                CoffeeCorner2,
+                CoffeeCorner3,
+                CoffeeCorner4,
+                CoffeeCorner5,
+                CoffeeCorner6,
+                CoffeeCorner7,
+                CoffeeCorner8,
+                CoffeeCorner9,
+                CoffeeCorner10,
+            ],
+        }
+
+
+
+
   
-  export default translations;
+  export { translations, images };
   
