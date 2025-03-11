@@ -109,7 +109,7 @@ const translations = {
                 truly experience the art of living. We create art, we design spaces, 
                 and we bring your dreams to life.`,
         quickLinks: ["Our story", "Services", "Numbers"],
-        legal: ["Terms of service", "Conditions & Terms"],
+        legal: ["Terms of service", "Privacy Policy", "Conditions & Terms"],
         contact: {
           location: "Kingdom of Saudi Arabia, Khobar",
           email: "zain.interior.design@zain.com",

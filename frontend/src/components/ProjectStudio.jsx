@@ -21,10 +21,10 @@ const ProjectStudio = () => {
             projectsStudio.current.scrollLeft = 0
 
 
-            const scroll = () => {projectsStudio.current.scrollLeft += 1;}
+            const scroll = () => {projectsStudio.current.scrollLeft += 50;}
             
 
-            const interval = setInterval(scroll, 30)
+            const interval = setInterval(scroll, 20)
 
             return () => clearInterval(interval)
 

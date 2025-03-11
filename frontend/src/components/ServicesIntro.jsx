@@ -5,7 +5,8 @@ const ServicesIntro = () => {
                 <p>Zain Services</p>
                 <div className="grow text-[#FFFAF3] border-b-black border-b">....</div>
             </div>
-            <p className="flex-1 about-text text-justify text-lg font-light uppercase">We ensure to deliver the best quality for our clients through our services. We ensure to deliver the best quality for our clients through our services. </p>
+            <p className="flex-1 about-text text-justify text-lg font-light uppercase">we offer integrated interior design solutions that blend creativity, luxury, and functionality to createunique spaces tailored to our clients’ needs.Our services include</p>
+            {/* <p className="flex-1 about-text text-justify text-lg font-light uppercase">We ensure to deliver the best quality for our clients through our services. We ensure to deliver the best quality for our clients through our services. </p> */}
         </div>
     )
 }

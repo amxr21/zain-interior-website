@@ -15,4 +15,8 @@ export { default as ProjectsCategories } from "./ProjectsCategories";
 export { default as ProjectStudio } from "./ProjectStudio";
 export { default as CategoryHeader } from "./CategoryHeader";
 export { default as NumbersHeader } from "./NumbersHeader";
-export { default as Number } from "./Number"
+export { default as Number } from "./Number";
+export { default as BrandInfo } from "./BrandInfo";
+export { default as QuickLinks } from "./QuickLinks";
+export { default as GetInTouch } from "./GetInTouch";
+export { default as Connect } from "./Connect";

@@ -41,8 +41,11 @@ import CoffeeCorner9 from "../assets/images/projects/coffeeCorner/9.jpg"
 import CoffeeCorner10 from "../assets/images/projects/coffeeCorner/10.jpg"
 
 
-import ZainTypo from "../assets/images/typo.png"
+import ZainTypo from "../assets/images/typo.svg"
+import ZainTypoWhite from "../assets/images/typo-white.svg"
 
+
+import StarSeperator from "../assets/images/Star.svg"
 
 
 
@@ -89,6 +92,10 @@ export {
 
 
     ZainTypo,
+    ZainTypoWhite,
+
+
+    StarSeperator
 
 
 }
