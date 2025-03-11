@@ -47,6 +47,13 @@ import ZainTypoWhite from "../assets/images/typo-white.svg"
 
 import StarSeperator from "../assets/images/Star.svg"
 
+import Logo1 from "../assets/images/Logos/1.svg"
+import Logo2 from "../assets/images/Logos/2.svg"
+import Logo3 from "../assets/images/Logos/3.svg"
+import Logo4 from "../assets/images/Logos/4.svg"
+import Logo5 from "../assets/images/Logos/5.svg"
+
+
 
 
 
@@ -95,7 +102,15 @@ export {
     ZainTypoWhite,
 
 
-    StarSeperator
+    StarSeperator,
+
+
+
+    Logo1,
+    Logo2,
+    Logo3,
+    Logo4,
+    Logo5,
 
 
 }

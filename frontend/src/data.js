@@ -68,22 +68,27 @@ const translations = {
         list: {
           interiorDesign: {
             title: "Interior Design",
-            brief: "Creating functional and aesthetically pleasing spaces through layout planning, color schemes, and decor selection.",
+            brief: "Innovative designs for homes, offices, and commercial spaces",
             banner: InteriorDesignBg
           },
           furnishing: {
-            title: "Furnishing",
-            brief: "Providing stylish and comfortable furniture solutions that enhance the functionality and appeal of any space.",
+            title: "Execution & Supervision",
+            brief: "High-quality implementation with meticulous attention to detail",
             banner: FurnishingBg
           },
           finishing: {
-            title: "Finishing",
-            brief: "Applying the final touches, including paint, flooring, and decorative details, to complete the interior look.",
+            title: "Color & Material Selection",
+            brief: "Harmonizing colors, fabrics, and finishes for a cohesive look",
             banner: FinishingBg
           },
           renovation: {
-            title: "Renovation",
-            brief: "Revamping existing spaces by upgrading structures, materials, and designs to meet modern standards and aesthetics.",
+            title: "Custom Furniture Design",
+            brief: "Bespoke pieces that add character and elegance",
+            banner: RenovationBg
+          },
+          renovation: {
+            title: "Design Consultation",
+            brief: "Expert advice to guide clients in making the right choices",
             banner: RenovationBg
           }
         }
