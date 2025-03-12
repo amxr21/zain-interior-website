@@ -55,12 +55,7 @@ const translations = {
       },
       about: {
         title: "ABOUT ZAIN INTERIOR",
-        description: `Zain Interior, based in Saudi Arabia, specializes in transforming spaces 
-                      with innovative designs and exceptional craftsmanship. Having successfully 
-                      served over 40 satisfied clients, we create elegant, functional, and modern 
-                      interiors for homes and businesses. Our expert team focuses on delivering 
-                      personalized solutions, ensuring quality and customer satisfaction in every 
-                      project, reflecting style and innovation.`
+        description: `We believe in creating spaces that inspire and enhance individual well-being. Our commitment lies in achieving a balance between beauty, functionality,and sustainability, delivering designs that uniquely reflect each client’s story. With a focus on innovation, quality, and integrity. we aim to transform interiors into meaningful environments that enrich daily life`
       },
       services: {
         title: "ZAIN SERVICES",

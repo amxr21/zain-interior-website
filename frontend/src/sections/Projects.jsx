@@ -5,6 +5,8 @@ import { Section, ProjectsCategories, ProjectStudio } from "../components";
 import { CategoriesContextWrapper } from "../context/CategoriesContext";
 
 
+
+
 const Projects = () => {
     return (
         <CategoriesContextWrapper>

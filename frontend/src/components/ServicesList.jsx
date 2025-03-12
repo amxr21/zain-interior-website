@@ -1,13 +1,20 @@
 import { Service } from './index'
 
 import { translations } from "../data"
+import { useContext } from "react"
+import { LanguageContext } from "../context/LanguageContext"
+
 
 const ServicesList = () => {
+    const { language } = useContext(LanguageContext)
+
+
+
     return (
         <div id="ServicesList">
             {
 
-                Object.entries(translations.en.services.list).map((service, i) => {
+                Object.entries(translations[language].services.list).map((service, i) => {
                     return (
                         <Service
                             key={i}

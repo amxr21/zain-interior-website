@@ -3,6 +3,8 @@ import Logo from "./Logo";
 import NavLink from "./NavLink";
 
 import { translations } from '../data'
+import { useContext } from "react";
+import { LanguageContext } from "../context/LanguageContext";
 
 
 const NavLinks = ({text, link}) => {
@@ -13,13 +15,13 @@ const NavLinks = ({text, link}) => {
     console.log(Object.values(translations[lang].navbar))
 
 
-
+    const { language } = useContext(LanguageContext)
     
     
     return (
         <div className="flex items-center justify-between w-full text-white">
             {
-                Object.entries(translations[lang].navbar).map((link, i) => {
+                Object.entries(translations[language].navbar).map((link, i) => {
                     return (
                             i + 1  == 3
                             ?

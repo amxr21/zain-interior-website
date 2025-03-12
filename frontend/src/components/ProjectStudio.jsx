@@ -17,19 +17,27 @@ const ProjectStudio = () => {
         
 
 
-        useEffect(() => {
-            projectsStudio.current.scrollLeft = 0
-
-
-            const scroll = () => {projectsStudio.current.scrollLeft += 50;}
-            
-
-            const interval = setInterval(scroll, 20)
-
-            return () => clearInterval(interval)
-
-        }, [category])
-
+    useEffect(() => {
+        let direction = 1; // 1 for forward, -1 for backward
+        projectsStudio.current.scrollLeft = 0; // Start from the beginning
+    
+        const scroll = () => {
+            const maxScroll = projectsStudio.current.scrollWidth - projectsStudio.current.clientWidth;
+    
+            if (projectsStudio.current.scrollLeft >= maxScroll) {
+                direction = -1; // Reverse direction when reaching the end
+            } else if (projectsStudio.current.scrollLeft <= 0) {
+                direction = 1; // Reverse direction when reaching the start
+            }
+    
+            projectsStudio.current.scrollLeft += direction * 5; // Adjust speed
+        };
+    
+        const interval = setInterval(scroll, 20);
+    
+        return () => clearInterval(interval);
+    }, [category]);
+    
 
 
 

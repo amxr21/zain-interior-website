@@ -7,7 +7,7 @@ const QuickLinks = ({header, links}) => {
     
     return (
         <div id="QuickLinks" className="flex flex-col gap-4">
-            <h4 className="underline text-lg">{header}</h4>
+            <h4 className="underline text-xl">{header}</h4>
             <ul className="flex flex-col gap-y-2 ml-4">
                 {
                     translations[lang].footer[links].map((text) => 

@@ -1,6 +1,15 @@
 import { Hero, About, Banner, Projects, Numbers, Services, Quote, Footer, Clients } from '../sections/index'
+import { useContext } from "react"
+
+import { translations } from "../data"
+
+import { LanguageContext } from "../context/LanguageContext"
 
 const Home = () => {
+
+    const { language } = useContext(LanguageContext)
+
+
 
     return (
         <div className=' '>
@@ -9,8 +18,8 @@ const Home = () => {
             <Services />
             <Banner
                 containerClasses={""} 
-                header='Book your consultation session now'
-                subheader='Book you consultation session now'
+                header={translations[language].consultation.title}
+                subheader={translations[language].consultation.title}
             />
             <Projects />
 

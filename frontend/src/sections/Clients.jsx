@@ -1,9 +1,9 @@
 import { Section } from "../components";
 
-import { Logo1, Logo2, Logo3, Logo4, Logo5 } from "../constants/images";
+import { Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7 } from "../constants/images";
 
 const Clients = () =>{
-    const logos = [Logo2, Logo1, Logo5, Logo3,Logo5, Logo4]
+    const logos = [Logo2, Logo1, Logo5, Logo3, Logo5, Logo4, Logo6, Logo7]
     return (
         <Section Id={"Clients"} Classes={"bg-black flex  "}>
 

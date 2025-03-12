@@ -5,18 +5,17 @@ import Home from "./pages/Home"
 import { NavBar } from "./components"
 import { Footer } from "./sections"
 
+import { LanguageContextWrapper } from "./context/LanguageContext"
 
 
-function App() {
-
+function App(){
   return (
     <div className="bg-[#FFFAF3]">
-        <NavBar />
-
-            <Home />
-    
+      <LanguageContextWrapper>
+        <NavBar/>
+        <Home/>
         <Footer />
-    
+      </LanguageContextWrapper>
     </div>
   )
 }
