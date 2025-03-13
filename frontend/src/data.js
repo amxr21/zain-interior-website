@@ -89,7 +89,8 @@ const translations = {
         }
       },
       consultation: {
-        title: "Book your consultation session now"
+        title: "Book your consultation session now",
+        subtitle: "Book your consultation session now to benefit from our expertise in interior design and turn your ideas into a reality filled with elegance and creativity!",
       },
       realLife: {
         title: "ZAIN IN REAL LIFE",

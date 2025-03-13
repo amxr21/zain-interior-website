@@ -20,7 +20,7 @@ const AboutStudio = () => {
                 images.map((image,index) => {
                     return (
                         <>
-                            <Image key={index} link={image} imgClasses="absolute min-w-full min-h-full object-cover " containerClasses="h-72 bg-red-500 relative overflow-hidden" />
+                            <Image key={index} link={image} imgClasses="absolute min-w-full min-h-full object-cover " containerClasses="h-72 bg-biege-500 relative overflow-hidden" />
                         </>
                     )
                 })
