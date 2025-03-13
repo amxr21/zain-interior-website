@@ -21,3 +21,4 @@ export { default as QuickLinks } from "./QuickLinks";
 export { default as GetInTouch } from "./GetInTouch";
 export { default as Connect } from "./Connect";
 export { default as TranslateButton } from "./TranslateButton";
+export { default as PostFooter } from "./PostFooter";

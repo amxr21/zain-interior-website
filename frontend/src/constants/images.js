@@ -42,6 +42,7 @@ import CoffeeCorner10 from "../assets/images/projects/coffeeCorner/10.jpg"
 
 
 import ZainTypo from "../assets/images/typo.svg"
+import ZainTypoAr from "../assets/images/typo-ar.svg"
 import ZainTypoWhite from "../assets/images/typo-white.svg"
 
 
@@ -101,6 +102,7 @@ export {
 
 
     ZainTypo,
+    ZainTypoAr,
     ZainTypoWhite,
 
 

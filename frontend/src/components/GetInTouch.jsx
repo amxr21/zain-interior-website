@@ -1,11 +1,12 @@
+import { translations } from "../data";
 import Connect from "./Connect";
 
-const GetInTouch = () => {
+const GetInTouch = ({lang}) => {
     return (
         <div className="GetInTouch">
             <div className="flex flex-col gap-4">
-                <h2 className="underline text-xl">Get in Touch</h2>
-                <p>Kingdom of Saudi Arabia, Jeddah. Zain headquarter, office. Flat no.368</p>
+                <h2 className="underline text-xl">{translations[lang].footer.contact.title}</h2>
+                <p>{translations[lang].footer.contact.location}</p>
             </div>
             
             <Connect />

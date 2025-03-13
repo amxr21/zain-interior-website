@@ -1,8 +1,6 @@
 import { translations } from "../data";
 
-const QuickLinks = ({header, links}) => {
-    const lang = navigator.language.split("-")[0]
-    
+const QuickLinks = ({header, links, lang}) => {    
     
     
     return (

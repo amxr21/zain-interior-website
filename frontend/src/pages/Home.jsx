@@ -19,7 +19,8 @@ const Home = () => {
             <Banner
                 containerClasses={""} 
                 header={translations[language].consultation.title}
-                subheader={translations[language].consultation.title}
+                subheader={translations[language].consultation.subtitle}
+                lang={language}
             />
             <Projects />
 

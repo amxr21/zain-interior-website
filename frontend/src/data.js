@@ -59,7 +59,7 @@ const translations = {
       },
       services: {
         title: "ZAIN SERVICES",
-        description: "We ensure to deliver the best quality for our clients through our services. We ensure to deliver the best quality for our clients through our services.",
+        description: "we offer integrated interior design solutions that blend creativity, luxury, and functionality to createunique spaces tailored to our clients’ needs.Our services include",
         list: {
           interiorDesign: {
             title: "Interior Design",
@@ -95,13 +95,18 @@ const translations = {
         title: "ZAIN IN REAL LIFE",
         categories: ["Living Room", "Dining Room", "Office", "Kitchen", "Coffee corners"]
       },
+      clients: {
+        title: "Our Clients",
+        subtitle: "Trusted by leading brands and businesses across Saudi Arabia, delivering excellence in every project."
+      },
       statistics: {
         title: "Zain in numbers",
+        subtitle: "At Zain Interior, we transform spaces into inspiring works of art. Design is our passion, blending style, creativity, innovation, and attention to detail to craft unforgettable environments that leave a lasting impression.",
         stats: [
-          { number: "+122", label: "happy clients" },
-          { number: "+65", label: "happy clients" },
-          { number: "+10", label: "partners" },
-          { number: "+36", label: "homes" }
+          { number: "122", label: "happy clients" },
+          { number: "65", label: "happy clients" },
+          { number: "10", label: "partners" },
+          { number: "36", label: "homes" }
         ]
       },
       footer: {
@@ -111,71 +116,105 @@ const translations = {
         quickLinks: ["Our story", "Services", "Numbers"],
         legal: ["Terms of service", "Privacy Policy", "Conditions & Terms"],
         contact: {
-          location: "Kingdom of Saudi Arabia, Khobar",
+          title: "Get in Touch",
+          location: "Kingdom of Saudi Arabia, Jeddah. Zain headquarter, office. Flat no.368",
           email: "zain.interior.design@zain.com",
           connect: "Connect: Whatsapp, Instagram, Tiktok, more"
         },
-        rights: "From Khobar to the world - All rights reserved"
+        fromTo: "From Jeddah to the world",
+        rights: "All rights reserved",
       }
     },
   
     ar: {
       navbar: {
-        story: "قصتنا",
-        services: "الخدمات",
-        numbers: "بالأرقام",
-        contact: "تواصل معنا"
+        Story: "قصتنا",
+        Services: "خدماتنا",
+        Numbers: "بالأرقام  ",
+        Projects: "مشاريعنا",
+        Clients: "عملاؤنا",
+        Contact: "حياكم!"
       },
       hero: {
-        title: "نصمم فنًا خالصًا",
-        subtitle: "لأن كل التفاصيل مهمة"
+        title: " نصمم لك فن خالص",
+        subtitle: "لأن كل تفصيل تفرق"
       },
       quote: {
-        text: "التصميم ليس مجرد قواعد ونظريات بل",
-        highlight: "خيال"
+        text: "التصميم ما يعتمد على القوانين و القواعدل لكن",
+        highlight: "عالخيــــــــال و الإبــــــــــــــــــــــداع"
       },
       about: {
-        title: "عن زين للتصميم الداخلي",
-        description: `زين للتصميم الداخلي، ومقرها المملكة العربية السعودية، متخصصة في تحويل المساحات 
-                      من خلال التصاميم المبتكرة والحرفية الاستثنائية. بعد أن خدمنا أكثر من 40 عميلًا راضيًا، 
-                      نصمم مساحات داخلية أنيقة وعملية وحديثة للمنازل والشركات. يركز فريقنا المتخصص على 
-                      تقديم حلول مخصصة، وضمان الجودة ورضا العملاء في كل مشروع، مما يعكس الأسلوب والابتكار.`
+        title: "قصــــة قصــــــــر زيــــــــــــن",
+        description: `نؤمن بخلق مساحات تلهم وتعزز رفاهية الأفراد. نلتزم بتحقيق التوازن بين الجمال والوظيفية والاستدامة، لنقدم تصاميم تعكس قصة كل عميل بتميز. نركز على الابتكار والجودة والنزاهة، نسعى لتحويل المساحات الداخلية إلى بيئات ذات معنى تُثري الحياة اليومية`
       },
       services: {
-        title: "خدمات زين",
-        description: "نحن نحرص على تقديم أعلى جودة لعملائنا من خلال خدماتنا. نحرص على تقديم أفضل جودة لعملائنا من خلال خدماتنا.",
-        list: ["التصميم الداخلي", "التأثيث", "التشطيب", "التجديد"]
+        title: "خدمــــــا تنـــــــــا",
+        description: "نقدم حلولاً متكاملة للتصميم الداخلي تجمع بين الإبداع والرفاهية والوظيفية لخلق مساحات فريدة تلبي احتياجات عملائنا. تشمل خدماتنا:",
+        list: {
+          interiorDesign: {
+            title: "التصميم الداخلي",
+            brief: "تصاميم مبتكرة للمنازل والمكاتب والمساحات التجارية",
+            banner: InteriorDesignBg
+          },
+          furnishing: {
+            title: "التنفيذ والإشراف",
+            brief: "تنفيذ عالي الجودة مع اهتمام دقيق بالتفاصيل",
+            banner: FurnishingBg
+          },
+          finishing: {
+            title: "اختيار الألوان والخامات",
+            brief: "ننسق بين الألوان والأقمشة والتشطيبات لتحقيق تناغم متكامل",
+            banner: FinishingBg
+          },
+          renovation: {
+            title: "تصميم أثاث مخصص",
+            brief: "قطع فريدة تضيف طابعًا مميزًا وأناقة فائقة",
+            banner: RenovationBg
+          },
+          renovation: {
+            title: "استشارات تصميمية",
+            brief: "نصائح خبراء لمساعدة العملاء على اتخاذ القرارات الصحيحة",
+            banner: RenovationBg
+          }
+        }
       },
       consultation: {
-        title: "احجز جلسة استشارة الآن"
+        title: "احجز جلستك الاستشارية الآن!",
+        subtitle: "سارع بحجز جلستك الاستشارية الآن للاستفادة من خبراتنا في التصميم الداخلي وتحويل أفكارك إلى واقع ينبض بالأناقة والإبداع!",
       },
       realLife: {
-        title: "زين في الحياة الواقعية",
-        categories: ["غرفة المعيشة", "غرفة الطعام", "المكتب", "المطبخ", "زوايا القهوة"]
+        title: "أعمال زيــــــــــن                         !",
+        categories: ["غرفة المعيشة", "غرفة الطعام", "المكاتب", "المطابخ", "زوايا القهوة"]
+      },
+      clients: {
+        title: "عملاؤنا",
+        subtitle: "يثق بنا كبرى العلامات التجارية والشركات في المملكة العربية السعودية، نحقق التميز في كل مشروع."
       },
       statistics: {
-        title: "زين بالأرقام",
+        title: "زين في أرقام",
+        subtitle: "في زين للديكور الداخلي، نحول المساحات إلى أعمال فنية ملهمة. التصميم هو شغفنا الذي يجمع بين الأناقة والإبداع والابتكار والاهتمام بالتفاصيل لصنع بيئات لا تُنسى تترك أثرًا دائمًا.",
         stats: [
-          { number: "+122", label: "عميل سعيد" },
-          { number: "+65", label: "عميل سعيد" },
-          { number: "+10", label: "شريك" },
-          { number: "+36", label: "منزل" }
+          { number: "122", label: "عميل سعيد" },
+          { number: "65", label: "غرف و مكاتب" },
+          { number: "10", label: "شركاء" },
+          { number: "36", label: "عمل منجز" }
         ]
       },
       footer: {
-        about: `زين أكثر من مجرد استوديو تصميم داخلي؛ إنه مساحة حيث يمكن للناس 
-                تجربة فن العيش الحقيقي. نحن نصنع الفن، نصمم المساحات، 
-                ونحول أحلامكم إلى واقع.`,
-        quickLinks: ["قصتنا", "الخدمات", "بالأرقام"],
-        legal: ["شروط الخدمة", "الأحكام والشروط"],
+        about: `زين ليست مجرد استوديو للتصميم الداخلي، بل هي مساحة حيث يُجسد الناس حقًا فن العيش. نصنع الفن، نصمم المساحات، ونحول أحلامك إلى واقع.`,
+        quickLinks: ["قصتنا", "خدماتنا", "بالأرقام"],
+        legal: ["شروط الخدمة", "سياسة الخصوصية", "الشروط والأحكام"],
         contact: {
-          location: "المملكة العربية السعودية، الخبر",
+          title: "تواصل معنا",
+          location: "المملكة العربية السعودية، جدة. المقر الرئيسي لزين، مكتب. شقة رقم 368",
           email: "zain.interior.design@zain.com",
-          connect: "تواصل: واتساب، انستغرام، تيك توك، المزيد"
+          connect: "تواصل عبر: واتساب، إنستجرام، تيك توك، وغيرها"
         },
-        rights: "من الخبر إلى العالم - جميع الحقوق محفوظة"
+        fromTo: "من جدة إلى العالم",
+        rights: "جميع الحقوق محفوظة"
       }
     }
+    
   };
 
 

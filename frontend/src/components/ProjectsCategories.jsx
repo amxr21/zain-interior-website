@@ -27,10 +27,11 @@ const ProjectsCategories = () => {
 
             <div className="categories-list flex flex-col gap-y-2">
                 {
-                    translations[lang].realLife.categories.map((category) => {
+                    translations[language].realLife.categories.map((category) => {
                         return (
-                            <CategoryHeader 
+                            <CategoryHeader
                                 header={category}
+                                titleLink={translations['en'].realLife.categories[translations[language].realLife.categories.indexOf(category)]}
                             />
                         )
                     })
