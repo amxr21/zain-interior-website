@@ -10,7 +10,7 @@ import { LanguageContextWrapper } from "./context/LanguageContext"
 
 function App(){
   return (
-    <div className="bg-[#FFFAF3] font-[Doran]">
+    <div className="bg-[#FFFAF3] font-[Doran] relative">
       <LanguageContextWrapper>
         <NavBar/>
         <Home/>

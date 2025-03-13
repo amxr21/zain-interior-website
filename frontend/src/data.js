@@ -120,7 +120,8 @@ const translations = {
           title: "Get in Touch",
           location: "Kingdom of Saudi Arabia, Jeddah. Zain headquarter, office. Flat no.368",
           email: "zain.interior.design@zain.com",
-          connect: "Connect: Whatsapp, Instagram, Tiktok, more"
+          connect: 
+              {'Whatsapp': '', 'Instagram': '', 'Tiktok': '', 'email':''}
         },
         fromTo: "From Jeddah to the world",
         rights: "All rights reserved",
@@ -209,7 +210,8 @@ const translations = {
           title: "تواصل معنا",
           location: "المملكة العربية السعودية، جدة. المقر الرئيسي لزين، مكتب. شقة رقم 368",
           email: "zain.interior.design@zain.com",
-          connect: "تواصل عبر: واتساب، إنستجرام، تيك توك، وغيرها"
+          connect: {'واتساب': '', 'انستقرام': '', 'تيك توك': '', 'البريد الإلكتروني':''}
+        ,
         },
         fromTo: "من جدة إلى العالم",
         rights: "جميع الحقوق محفوظة"

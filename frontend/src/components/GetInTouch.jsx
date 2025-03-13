@@ -9,7 +9,7 @@ const GetInTouch = ({lang}) => {
                 <p>{translations[lang].footer.contact.location}</p>
             </div>
             
-            <Connect />
+            <Connect language={lang} />
 
 
         </div>

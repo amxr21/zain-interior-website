@@ -1,16 +1,19 @@
 import { translations } from "../data";
 
+import { ConnectMedia } from "./index";
 
-const Connect = () => {
+const Connect = ({ language }) => {
     return (
-        <div id="Connect" className="flex gap-x-2 ">
-            <h2 className="mr-5 font-semibold">Connect: </h2>
+        <div id="Connect" className="flex gap-x-8 ">
+            <h2 className="font-semibold">{language == 'ar' ? "أقرب" : 'Connect'}:</h2>
             <ul className="flex gap-x-2 grow justify-between font-extralight">
-                <li><a href="">WhatsApp</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">TikTok</a></li>
-                <li><a href="">Maps</a></li>
-            </ul>
+                {
+                    Object.entries(translations[language].footer.contact.connect).map((connectMedia) => {
+                        return (
+                            <ConnectMedia key={connectMedia} link={connectMedia[1]} title={connectMedia[0]}/>
+                        )
+                    })
+                }</ul>
         </div>
     )
 }
