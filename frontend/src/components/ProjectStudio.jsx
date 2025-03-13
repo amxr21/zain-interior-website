@@ -19,44 +19,44 @@ const ProjectStudio = () => {
         
 
 
-    useEffect(() => {
-        const element = projectsStudio.current;
-        if (!element) return;
+    // useEffect(() => {
+    //     const element = projectsStudio.current;
+    //     if (!element) return;
     
-        let direction = 1; // 1 for right, -1 for left
-        let animationId;
-        let lastScrollPos = 0;
-        let speed = 2; // Adjust scrolling speed (pixels per frame)
+    //     let direction = 1; // 1 for right, -1 for left
+    //     let animationId;
+    //     let lastScrollPos = 0;
+    //     let speed = 2; // Adjust scrolling speed (pixels per frame)
     
-        // Initialize scroll position based on language
-        language === 'ar' 
-            ? element.scrollLeft = element.scrollWidth // Start from right for RTL
-            : element.scrollLeft = 0; // Start from left for LTR
+    //     // Initialize scroll position based on language
+    //     language === 'ar' 
+    //         ? element.scrollLeft = element.scrollWidth // Start from right for RTL
+    //         : element.scrollLeft = 0; // Start from left for LTR
     
-        const animate = () => {
-            const maxScroll = element.scrollWidth - element.clientWidth;
-            const currentScroll = element.scrollLeft;
+    //     const animate = () => {
+    //         const maxScroll = element.scrollWidth - element.clientWidth;
+    //         const currentScroll = element.scrollLeft;
     
-            // Reverse direction when reaching boundaries
-            if (currentScroll >= maxScroll - 1 || currentScroll <= 0) {
-                speed *= 0.9; // Add slight deceleration effect
-                direction *= -1;
-            } else {
-                speed = 2; // Reset to base speed
-            }
+    //         // Reverse direction when reaching boundaries
+    //         if (currentScroll >= maxScroll - 1 || currentScroll <= 0) {
+    //             speed *= 0.9; // Add slight deceleration effect
+    //             direction *= -1;
+    //         } else {
+    //             speed = 2; // Reset to base speed
+    //         }
     
-            // Add smooth bounce effect when reversing
-            const smoothStep = speed * direction + (currentScroll - lastScrollPos) * 0.3;
-            element.scrollLeft += smoothStep;
+    //         // Add smooth bounce effect when reversing
+    //         const smoothStep = speed * direction + (currentScroll - lastScrollPos) * 0.3;
+    //         element.scrollLeft += smoothStep;
     
-            lastScrollPos = currentScroll;
-            animationId = requestAnimationFrame(animate);
-        };
+    //         lastScrollPos = currentScroll;
+    //         animationId = requestAnimationFrame(animate);
+    //     };
     
-        animationId = requestAnimationFrame(animate);
+    //     animationId = requestAnimationFrame(animate);
     
-        return () => cancelAnimationFrame(animationId);
-    }, [category, language]);
+    //     return () => cancelAnimationFrame(animationId);
+    // }, [category, language]);
     
 
 

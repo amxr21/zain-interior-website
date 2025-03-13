@@ -1,4 +1,41 @@
 @font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-BOLD.TTF') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-EXTRABOLD.TTF') format('truetype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-LIGHT.TTF') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-MEDIUM.TTF') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-REGULAR.TTF') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/DORAN-THIN.TTF') format('truetype');
+  font-weight: 100;
+}
+
+
+@font-face {
     font-family: 'Fraunces';
     src: url('./assets/fonts/Fraunces-Black.ttf') format('truetype');
     font-weight: 900;
