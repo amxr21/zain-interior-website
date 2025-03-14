@@ -17,7 +17,7 @@ const Clients = () =>{
 
     const logos = [Logo2, Logo1, Logo5, Logo3, Logo5, Logo4, Logo6, Logo7]
     return (
-        <Section Id={"Clients"} Classes={"bg-black flex flex-col lg:flex-row "}>
+        <Section Id={"Clients"} Classes={"bg-black flex flex-col lg:flex-row py-16"}>
 
             <div className="text-white z-50 flex-1 flex flex-col gap-y-3 text-justify">
                 <h2 className="text-3xl lg:text-4xl font-bold">{translations[language].clients.title}</h2>

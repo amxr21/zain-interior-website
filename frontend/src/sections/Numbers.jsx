@@ -17,11 +17,11 @@ const Numbers = () => {
         <Section Id="Numbers" Classes='flex flex-col gap-y-6'>
             <NumbersHeader />
 
-            <div className="numbers flex gap-4 py-4 justify-between">
+            <div className="numbers grid grid-cols-2 lg:flex gap-x-4 gap-y-2  lg:gap-4 py-4 justify-between">
                 {
                     translations[language].statistics.stats.map((n, i) => {
                         return (
-                            <Number key={n['number']} number={n['number']} numberText={n['label']} classes={i != 3 ? language == 'en' ? 'pr-32 border-r' : 'pl-32 border-l' : ""} />
+                            <Number key={n['number']} number={n['number']} numberText={n['label']} classes={i != 3 ? language == 'en' ? 'lg:pr-32 lg:border-r' : 'lg:pl-32 lg:border-l' : ""} />
                         )
                     })
 

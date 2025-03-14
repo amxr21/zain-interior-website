@@ -12,8 +12,8 @@ const Footer = () => {
     const { language } = useContext(LanguageContext)
 
     return (
-        <footer id="Contact" className="bg-black text-white">
-            <Section Classes="grid grid-cols-3 gap-x-8 h-80">
+        <footer id="Contact" className="bg-black text-white pt-4 lg:py-0">
+            <Section Classes="grid lg:grid-cols-3 gap-x-8 lg:h-80">
                 
                 <BrandInfo lang={language} />
 

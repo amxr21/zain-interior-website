@@ -9,8 +9,8 @@ const Service = ({bannerImage, serviceHeader, serviceDetails})  => {
 
     const handleHover = (e) => {
         return serviceRef.current.firstElementChild.classList.contains('lg:h-12')
-        ? serviceRef.current.firstElementChild.classList.replace('lg:h-12', 'h-20')
-        : serviceRef.current.firstElementChild.classList.replace('h-20', 'lg:h-12')
+        ? serviceRef.current.firstElementChild.classList.replace('lg:h-12', 'h-18')
+        : serviceRef.current.firstElementChild.classList.replace('h-18', 'lg:h-12')
     }
 
 
@@ -24,9 +24,9 @@ const Service = ({bannerImage, serviceHeader, serviceDetails})  => {
             </div>
 
 
-            <div ref={serviceRef} onMouseEnter={handleHover} onMouseLeave={handleHover} className="service flex items-center justify text absolute p-8 lg:p-18 text-white w-full h-full overflow-hidden">
-                <div className="service-info h-9 lg:h-12 overflow-hidden">
-                    <h2 className="service-header text-2xl lg:text-4xl font-normal mb-2">{serviceHeader}</h2>
+            <div ref={serviceRef} onMouseEnter={handleHover} onMouseLeave={handleHover} className="service flex items-center justify text absolute px-6 py-8 lg:p-18 text-white w-full h-full overflow-hidden">
+                <div className="service-info h-7 lg:h-12 overflow-hidden">
+                    <h2 className="service-header text-xl lg:text-4xl font-normal lg:mb-2">{serviceHeader}</h2>
                     <p className="service-details text-sm lg:text-md font-light">{serviceDetails}</p>
 
                 </div>

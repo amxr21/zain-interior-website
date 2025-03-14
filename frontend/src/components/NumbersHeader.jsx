@@ -16,11 +16,11 @@ const NumbersHeader  = () => {
 
 
     return (
-        <div className="flex gap-20">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-20">
             <div className="header">
-                <img src={language == 'ar' ? ZainTypoAr : ZainTypo } alt="" className="w-64" />
+                <img src={language == 'ar' ? ZainTypoAr : ZainTypo } alt="" className="min-w-24 w-24 lg:min-w-64" />
             </div>
-            <div className="numbers-info text-lg text-justify">{translations[language].statistics.subtitle}</div>
+            <div className="numbers-info text-sm lg:text-lg text-justify">{translations[language].statistics.subtitle}</div>
         </div>
     )
 }

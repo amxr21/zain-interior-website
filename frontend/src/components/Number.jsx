@@ -10,8 +10,8 @@ const Number = ({ number, numberText, classes }) => {
 
     return (
         <div className={`flex flex-col items-center gap-y-3 py-4 ${classes}`}>
-            <h2 className={`text-8xl font-extrabold ${language == 'ar' ? "-mr-5" : '-ml-5'} `}>+{number}</h2>
-            <p className="text-2xl w-full text-center font-extralight">{numberText}</p>
+            <h2 className={`text-6xl lg:text-8xl font-extrabold ${language == 'ar' ? "lg:-mr-5" : 'lg:-ml-5'} `}>+{number}</h2>
+            <p className="text-lg lg:text-2xl w-full text-center font-light">{numberText}</p>
         </div>
     )
 }
