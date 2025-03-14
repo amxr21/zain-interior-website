@@ -10,7 +10,7 @@ import { CategoriesContextWrapper } from "../context/CategoriesContext";
 const Projects = () => {
     return (
         <CategoriesContextWrapper>
-            <Section Id={"Projects"} Classes="grid grid-cols-12 gap-x-10">
+            <Section Id={"Projects"} Classes="lg:grid lg:grid-cols-12 flex flex-col gap-x-10 my-10 lg:my-0">
                 <ProjectsCategories />
                 <ProjectStudio />
             </Section>

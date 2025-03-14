@@ -46,7 +46,7 @@ const translations = {
         Contact: "Get in Touch"
       },
       hero: {
-        title: "We Design pure ART",
+        title: "We Design pure art",
         subtitle: "Because every detail matter"
       },
       quote: {
@@ -90,7 +90,7 @@ const translations = {
       },
       consultation: {
         title: "Book your consultation session now",
-        subtitle: "Book your consultation session now to benefit from our expertise in interior design and turn your ideas into a reality filled with elegance and creativity!",
+        subtitle: "to turn your ideas into a reality!",
       },
       realLife: {
         title: "ZAIN IN REAL LIFE",

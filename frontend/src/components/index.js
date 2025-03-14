@@ -23,3 +23,4 @@ export { default as Connect } from "./Connect";
 export { default as TranslateButton } from "./TranslateButton";
 export { default as PostFooter } from "./PostFooter";
 export { default as ConnectMedia } from "./ConnectMedia";
+export { default as BurgerButton } from "./BurgerButton";

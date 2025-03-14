@@ -2,7 +2,7 @@ import { Quote, HeroCard } from "../components/index";
 
 const Hero = () => {
     return (
-        <div className="w-full hero h-[100vh] flex flex-col items-center justify-center relative">
+        <div className="w-full hero h-[48rem] lg:h-[100vh] flex flex-col items-center justify-center relative">
             
             <HeroCard />
 

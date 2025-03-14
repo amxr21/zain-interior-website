@@ -64,12 +64,12 @@ const ProjectStudio = () => {
 
 
     return (
-        <div className=" col-span-8">
+        <div className="col-span-8">
             <div ref={projectsStudio} className="projects-studio flex gap-4 overflow-x-scroll pb-2 h-full">
                 {
                     images[category]?.map((image) => {
                         return (
-                            <div className="relative object-cover min-w-[30rem] w-[30rem] h-96 overflow-hidden bg-[#EBD9B3] rounded-lg">
+                            <div className="relative object-cover min-w-[16rem] h-60 lg:min-w-[30rem] lg:w-[30rem] lg:h-96 overflow-hidden bg-[#EBD9B3] rounded-lg">
                                 <img src={image} alt={image} className="absolute inset-0 w-full h-full object-cover" />
                             </div>
                         )

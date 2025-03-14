@@ -5,6 +5,7 @@ import NavLink from "./NavLink";
 import { translations } from '../data'
 import { useContext } from "react";
 import { LanguageContext } from "../context/LanguageContext";
+import BurgerButton from "./BurgerButton";
 
 
 const NavLinks = ({text, link}) => {
@@ -37,6 +38,7 @@ const NavLinks = ({text, link}) => {
                     )
                 })
             }
+            <BurgerButton />
 
         </div>
     )

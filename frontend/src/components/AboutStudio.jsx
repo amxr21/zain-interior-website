@@ -15,12 +15,12 @@ const AboutStudio = () => {
 
 
     return (
-        <div className="grid grid-cols-5 gap-x-0 gap-y-0">
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-x-0 gap-y-0">
             {
                 images.map((image,index) => {
                     return (
                         <>
-                            <Image key={index} link={image} imgClasses="absolute min-w-full min-h-full object-cover " containerClasses="h-72 bg-biege-500 relative overflow-hidden" />
+                            <Image key={index} link={image} imgClasses="absolute min-w-full min-h-full object-cover " containerClasses="h-36 lg:h-72 bg-biege-500 relative overflow-hidden" />
                         </>
                     )
                 })
