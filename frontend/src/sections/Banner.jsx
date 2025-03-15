@@ -7,7 +7,7 @@ const Banner = ({containerClasses, header, subheader, lang}) => {
                 <img src={BannerImage} alt="" className="absolute inset-0 object-cover w-full h-full" />
             </div>
             <div className={`banner-content ${lang == 'ar' ? 'font-[Doran]' : 'font-[Ivy-Presto-Display] italic'} text-white absolute left-0 top-0 w-full h-full flex flex-col lg:gap-y-6 justify-center px-8 lg:px-24  ${containerClasses}`}>
-                <h2 className="text-2xl lg:text-5xl font-bold text-justify lg:text-left">{header}</h2>
+                <h2 className="text-2xl lg:text-5xl font-bold text-justify ">{header}</h2>
                 <h6 className="text-sm lg:text-xl font-thin">{subheader}</h6>
             </div>
 
