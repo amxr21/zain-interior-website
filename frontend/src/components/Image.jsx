@@ -1,7 +1,7 @@
 const Image = ({ link, alt, containerClasses, imgClasses }) => {
     return (
         <div className={containerClasses}>
-            <img src={link} alt={alt} className={imgClasses} />
+            <img loading="lazy" src={link} alt={alt} className={imgClasses} />
         </div>
     )
 }
