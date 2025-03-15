@@ -11,11 +11,6 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Build output
-build/
-dist/
-.next/
-out/
 
 # Logs
 logs/
