@@ -27,7 +27,7 @@ const Service = ({bannerImage, serviceHeader, serviceDetails})  => {
             <div ref={serviceRef} onMouseEnter={handleHover} onMouseLeave={handleHover} className="service flex items-center justify text absolute px-6 py-8 lg:p-18 text-white w-full h-full overflow-hidden">
                 <div className="service-info h-7 lg:h-12 overflow-hidden">
                     <h2 className="service-header text-xl lg:text-4xl font-normal lg:mb-2">{serviceHeader}</h2>
-                    <p className="service-details text-sm lg:text-md font-light">{serviceDetails}</p>
+                    <p className="service-details text-sm lg:text-xl font-light">{serviceDetails}</p>
 
                 </div>
             </div>

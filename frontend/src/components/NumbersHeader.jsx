@@ -20,7 +20,7 @@ const NumbersHeader  = () => {
             <div className="header">
                 <img src={language == 'ar' ? ZainTypoAr : ZainTypo } alt="" className="min-w-24 w-24 lg:min-w-64" />
             </div>
-            <div className="numbers-info text-sm lg:text-lg text-justify">{translations[language].statistics.subtitle}</div>
+            <div className="numbers-info text-sm lg:text-xl text-justify">{translations[language].statistics.subtitle}</div>
         </div>
     )
 }

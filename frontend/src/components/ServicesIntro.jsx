@@ -16,7 +16,7 @@ const ServicesIntro = () => {
                 <p>{translations[language].services.title}</p>
                 <div className="grow text-2xl text-[#FFFAF3] border-b-black border-b-[1px]">....</div>
             </div>
-            <p className="flex-1 about-text text-sm lg:text-lg text-justify text-lg font-light uppercase">{translations[language].services.description}</p>
+            <p className="flex-1 about-text text-sm lg:text-lg text-justify text-lg font-normal uppercase">{translations[language].services.description}</p>
             {/* <p className="flex-1 about-text text-justify text-lg font-light uppercase">We ensure to deliver the best quality for our clients through our services. We ensure to deliver the best quality for our clients through our services. </p> */}
         </div>
     )
